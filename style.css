@@ -264,6 +264,105 @@ Version: 1.0.0
 .content_wrapper .content_area_active .area_more{
     visibility: visible;
 }
+/*服务内容左右按钮*/
+.btn_wrapper {
+    padding-right: 100px;
+}
+.left_btn, .right_btn{
+    position: relative;
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+	background-color: #ffffff;
+	box-shadow: 0.5px 0.8px 32px 0px 
+		rgba(33, 58, 100, 0.1);
+}
+.left_btn {
+    position: relative;
+    margin-right: 20px;
+}
+.left_icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    border-right: 2px solid #213a64;
+    border-top: 2px solid #213a64;
+    margin: auto auto;
+    transform: rotate(225deg);
+}
+.right_icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 14px;
+    height: 14px;
+    border-right: 2px solid #213a64;
+    border-top: 2px solid #213a64;
+    margin: auto auto;
+    transform: rotate(45deg);
+}
+/*项目案列*/
+.project_case_wrapper {
+    padding: 0 180px;
+}
+.project_case_wrapper .project_case {
+    width: 460px;
+    margin: 0 auto;
+    box-shadow: 0.5px 0.8px 32px 0px rgba(33, 58, 100, 0.1);
+	border-radius: 10px;
+}
+.project_case_wrapper .project_case .project_case_img {
+    border-radius: 10px 10px 0px 0px;
+}
+.project_case_wrapper .project_case .project_case_dedescribesc {
+    padding: 36px 36px 57px 35px;
+}
+.project_case_wrapper .project_case .project_case_dedescribesc .project_case_title {
+    font-family: PingFang-SC-Bold;
+	font-size: 20px;
+	line-height: 20px;
+	color: #213a64;
+}
+.project_case_wrapper .project_case .project_case_dedescribesc .project_case_content{
+   margin-top: 19px;
+}
+.project_case_wrapper .project_case .project_case_dedescribesc .project_case_content .case_content span{
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-family: PingFang-SC-Regular;
+	font-size: 16px;
+	line-height: 28px;
+	color: #4e4e4e;
+}
+.project_case_wrapper .project_case .project_case_dedescribesc .project_case_content .case_content span:first-child{
+    width: 72%;
+}
+.project_case_wrapper .project_case .project_case_dedescribesc .project_case_content .case_content span:last-child{
+    width: 27%;
+}
+.project_case_wrapper .project_case .project_case_dedescribesc .project_case_more{
+    width: 90px;
+    height: 28px;
+    margin-top: 12px;
+	background-color: #213a64;
+    border-radius: 14.2px 14px 14px 13.8px;
+    text-align: center;
+    font-family: PingFang-SC-Regular;
+	font-size: 14px;
+	line-height: 28px;
+	color: #fefefe;
+ }
 @media screen and (max-width: 1860px){
     /*logo的左上边距*/
     .logo_img{

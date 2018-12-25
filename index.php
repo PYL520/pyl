@@ -103,6 +103,112 @@
                             </div>
                         </div>
                     </div>
+                    <!--左右按钮-->
+                    <div class="btn_wrapper pull-right">
+                        <div class="left_btn">
+                            <span class="left_icon"></span>
+                        </div>
+                        <div class="right_btn">
+                            <span class="right_icon"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--项目案列-->
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="server_title">项目案例</div>
+                    <div class="server_have">拥有服务的IT服务项目经验</div>
+                </div>
+            </div>
+            <!--项目案列内容-->
+            <div class="row project_case_wrapper">
+                <div class="col-md-4">
+                    <div class="project_case">
+                        <div class="project_case_img">
+                            <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/product1.png" />
+                        </div>
+                        <div class="project_case_dedescribesc">
+                            <div class="project_case_title">数据库服务</div>
+                            <div class="project_case_content">
+                                <div class="case_content">
+                                    <span>IT帮资深系统专家为大型交易会调优</span>
+                                    <span class="text-right">2017-02-16</span>
+                                </div>
+                                <div class="case_content">
+                                    <span>数据库专家解决应用程序性能问题</span>
+                                    <span class="text-right">2017-03-20</span>
+                                </div>
+                                <div class="case_content">
+                                    <span>赛姆工程师为运营商解决数据库性能什么</span>
+                                    <span class="text-right">2017-04-25</span>
+                                </div>
+                                <div class="case_content">
+                                    <span>IT帮资深系统专家为大型交易会调优</span>
+                                    <span class="text-right">2017-02-16</span>
+                                </div>
+                            </div>
+                            <div class="project_case_more">MORE</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project_case">
+                        <div class="project_case_img">
+                            <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/product2.png" />
+                        </div>
+                        <div class="project_case_dedescribesc">
+                            <div class="project_case_title">紧急救援</div>
+                            <div class="project_case_content">
+                                <div class="case_content">
+                                    <span>IT帮资深系统专家为大型交易会调优</span>
+                                    <span class="text-right">2017-02-16</span>
+                                </div>
+                                <div class="case_content">
+                                    <span>数据库专家解决应用程序性能问题</span>
+                                    <span class="text-right">2017-03-20</span>
+                                </div>
+                                <div class="case_content">
+                                    <span>赛姆工程师为运营商解决数据库性能什么</span>
+                                    <span class="text-right">2017-04-25</span>
+                                </div>
+                                <div class="case_content">
+                                    <span>IT帮资深系统专家为大型交易会调优</span>
+                                    <span class="text-right">2017-02-16</span>
+                                </div>
+                            </div>
+                            <div class="project_case_more">MORE</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="project_case">
+                        <div class="project_case_img">
+                            <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/product3.png" />
+                        </div>
+                        <div class="project_case_dedescribesc">
+                            <div class="project_case_title">大型项目</div>
+                            <div class="project_case_content">
+                                <div class="case_content">
+                                    <span>IT帮资深系统专家为大型交易会调优</span>
+                                    <span class="text-right">2017-02-16</span>
+                                </div>
+                                <div class="case_content">
+                                    <span>数据库专家解决应用程序性能问题</span>
+                                    <span class="text-right">2017-03-20</span>
+                                </div>
+                                <div class="case_content">
+                                    <span>赛姆工程师为运营商解决数据库性能什么</span>
+                                    <span class="text-right">2017-04-25</span>
+                                </div>
+                                <div class="case_content">
+                                    <span>IT帮资深系统专家为大型交易会调优</span>
+                                    <span class="text-right">2017-02-16</span>
+                                </div>
+                            </div>
+                            <div class="project_case_more">MORE</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
