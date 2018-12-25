@@ -1,0 +1,493 @@
+/*
+Theme Name: pyltheme
+Theme URI: http
+Author: the pyl
+Author URI: http:
+Description: 这是庞扬龙的主题
+Version: 1.0.0
+*/
+/*头部开始*/
+/* ::-webkit-scrollbar{
+    display:none;
+} */
+.header_bg {
+    width: 100%;
+    background-image: url(image/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+/*logo部分*/
+.logo_img {
+    margin-left: 85px;
+    margin-top: 60px;
+}
+.logo_img img {
+    width: 60px;
+    height: 56px;
+}
+.logo_title{
+    display: inline-block;
+    margin-left: 15px;
+    margin-top: 5px;
+    width: 104px;
+    height: 18px;
+    font-family: PingFang-SC-Bold;
+	font-size: 14px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+    color: #305299;
+    vertical-align: middle;
+}
+#LoginWrapper1{
+    padding-left: 0px;
+    padding-top: 0;
+    float: right;
+}
+#LoginWrapper1 a{
+    width: 42px;
+    height: 24px;
+    font-size: 12px;
+    padding:4px 6px;
+}
+#LoginWrapper1 a.login{
+    box-shadow: 0.5px 0.8px 5px 0px rgba(255, 255, 255, 0.66);
+    border-radius: 10px;
+}
+#LoginWrapper1 .registe{
+    background: transparent;
+    color: #ffffff;
+}
+/*导航部分*/
+.navWidth {
+    width: 120px;
+    overflow: hidden;
+}
+.navBackground {
+    background: #101C31;
+}
+#menu ul li.active a{
+    border-bottom: 2px solid #ffffff;
+}
+#menu ul li a:hover{
+    background-color: transparent;
+}
+#menu ul li a:focus{
+    background-color: transparent;
+    border-bottom: 2px solid #ffffff;
+}
+#menu ul li a {
+    margin-right: 80px;
+    padding:25px 0 10px 0;
+    font-family: PingFang-SC-Regular;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #ffffff;
+}
+#NavbarHeader .navbar-header .navbar-toggle {
+    float: left;
+    border: 1px solid #ddd;
+}
+#NavbarHeader .navbar-header .navbar-toggle:focus, #NavbarHeader .navbar-header .navbar-toggle:hover {
+    background-color: #ddd;
+}
+#NavbarHeader .navbar-header .navbar-toggle .icon-bar{
+    background: #888;
+}
+/*登录部分*/
+#LoginWrapper{
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#LoginWrapper a{
+    width: 80px;
+    height: 28px;
+    font-size: 16px;
+    padding:2px 12px;
+}
+#LoginWrapper a.login{
+    box-shadow: 0.5px 0.8px 5px 0px rgba(255, 255, 255, 0.66);
+    border-radius: 14px;
+}
+#LoginWrapper .registe{
+    background: transparent;
+    color: #ffffff;
+}
+/*头部下部左侧*/
+.left_title {
+    position: relative;
+    width: 559px;
+    height: 198px;
+    margin-left: 85px;
+    margin-top: 120px;
+	font-family: Impact;
+	font-size: 63px;
+	font-weight: normal;
+    font-stretch: normal;
+    line-height: 69px;
+	letter-spacing: 0px;
+    color: #2f4f94;
+    transition: 1s;
+    animation: move 2s;
+}
+.left_content {
+    margin-left: 85px;
+    margin-top: 80px;
+    font-family: PingFang-SC-Bold;
+	font-size: 18px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 0px;
+	color: #101c31;
+}
+.left_content span {
+    display: inline-block;
+    padding-bottom: 6px;
+    border-bottom: 4px solid #101c31;
+    border-radius: 1.5px;
+}
+.left_img {
+    margin-left: 85px;
+    margin-top: 80px;
+}
+.left_img .marginIosLeft {
+    margin-left: -90px;
+}
+.left_img .marginCodeLeft {
+    margin-left: -77px;
+}
+/*右侧图片*/
+.right_img img {
+    max-width: 100%;
+    height: auto;
+}
+/*it服务*/
+.server_wrapper .container-fluid .server_content_wrapper {
+    margin-top: 60px;
+    margin-left: 32px
+}
+.server_title{
+    padding-top: 120px;
+    text-align: center;
+    font-family: PingFang-SC-Bold;
+    font-size: 36px;
+    line-height: 36px;
+	color: #2f4f94;
+}
+.server_have{
+    margin-top: 12px;
+    text-align: center;
+    font-family: PingFang-SC-Regular;
+    font-size: 16px;
+    line-height: 16px;
+	color: #9e9e9e;
+}
+.server_img img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+.server_img_wrapper1 {
+    margin-right: -24px;
+}
+.server_img_wrapper3 {
+    margin-right: -30px;
+}
+.server_img_title {
+    font-family: PingFang-SC-Bold;
+    font-size: 18px;
+    margin-top: -32px;
+	line-height: 18.6px;
+    color: #213a64;
+    text-align: center;
+}
+.server_img_content {
+    width: 63%;
+    margin: 22px auto 0 auto;
+    font-family: PingFang-SC-Regular;
+	font-size: 16px;
+	line-height: 18.6px;
+    color: #969696;
+    text-align: center;
+}
+/*服务内容下部*/
+.server_wrapper .container-fluid .content_wrapper {
+    margin-top: 90px;
+    margin-left: 70px;
+}
+.content_wrapper .content_img {
+    padding-top: 32px;
+}
+.content_wrapper .content_img img {
+    max-width: 100%;
+    height: auto;
+}
+/*服务内容下部的右部*/
+.content_wrapper .content_area {
+    width: 500px;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 24px 31px 28px 38px;
+}
+.content_wrapper .content_area_active {
+    box-shadow: 1.6px 2.5px 7px 0px rgba(33, 58, 100, 0.1);
+	border-radius: 10px;
+}
+.content_wrapper .content_area .area_title {
+    font-family: PingFang-SC-Bold;
+	font-size: 18px;
+	line-height: 18px;
+	color: #213a64;
+}
+.content_wrapper .content_area .area_describe {
+    margin-top: 25px;
+    font-family: PingFang-SC-Regular;
+	font-size: 16px;
+	line-height: 28px;
+	color: #323232;
+}
+.content_wrapper .content_area .area_more {
+    visibility: hidden;
+    width: 80px;
+    height: 24px;
+    margin-top: 19px;
+	background-color: #213a64;
+    border-radius: 13px 12px 12px 11px;
+    text-align: center;
+    font-family: PingFang-SC-Regular;
+	font-size: 14px;
+	line-height: 24px;
+	color: #fefefe;
+}
+.content_wrapper .content_area_active .area_more{
+    visibility: visible;
+}
+@media screen and (max-width: 1860px){
+    /*logo的左上边距*/
+    .logo_img{
+        margin-left: 7%;
+        margin-top: 9%;
+    }
+    /*导航右边距缩小*/
+    #menu ul li a{
+        margin-right: 40px;
+    }
+    /*头部下部左侧*/
+    .left_title, .left_content, .left_img{
+        margin-left: 7%;
+        margin-top: 7%;
+    }
+    .left_title {
+        width: 70%;
+        height: 100%;
+        line-height: 45px;
+        font-size: 45px;
+    }
+    .left_img .marginIosLeft {
+        margin-left: -35px;
+    }
+    .left_img .marginCodeLeft {
+        margin-left: -25px;
+    }
+    /*服务内容*/
+    .content_wrapper .content_area {
+        width: 100%;
+    }
+}
+@media screen and (max-width: 1400px){
+    /*导航右边距缩小*/
+    #menu ul li a{
+        margin-right: 17px;
+        font-size: 13px;
+    }
+    /*登录注册*/
+    #LoginWrapper a{
+        width: 54px;
+        height: 34px;
+        font-size: 14px;
+        padding:6px 12px;
+    }
+    /*头部左部*/
+    .left_title {
+        line-height: 25px;
+        font-size: 25px;
+    }
+    .left_content {
+        font-size: 16px;
+    }
+    .left_img .marginIosLeft {
+        margin-left: 0px;
+    }
+    .left_img .marginCodeLeft {
+        margin-left: 0px;
+    }
+    .left_img .android img {
+        width: 80px;
+        height: auto;
+    }
+    .left_img .appstore img{
+        width: 80px;
+        height: auto;
+    }
+    .left_img .code img{
+        width: 27px;
+        height: auto;
+    }
+    /*it服务*/
+    .server_title {
+        font-size: 26px;
+    }
+    .server_have {
+        font-size: 14px;
+    }
+    /*服务内容左侧图片*/
+    .content_wrapper .content_img img {
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 970px){
+    /*logo的左上边距*/
+    .logo_img{
+        margin-left: 7%;
+        margin-top: 15%;
+    }
+    /*logo图片大小*/
+    .logo_img img {
+        width: 45px;
+        height: auto;
+    }
+    .logo_title{
+        margin-left: 10px;
+        margin-top: 5px;
+        font-size: 12px;
+    }
+     /*导航右边距缩小*/
+     #menu ul li a{
+        margin-right: 17px;
+        font-size: 12px;
+    }
+    /*导航上边距*/
+    #menu ul li a {
+        padding-top:20px;
+    }
+    /*登录上边距*/
+    #LoginWrapper{
+        padding-left: 0px;
+        padding-top: 18px;
+    }
+    #LoginWrapper a{
+        width: 42px;
+        height: 24px;
+        font-size: 12px;
+        padding:4px 6px;
+        
+    }
+    #LoginWrapper a.login{
+        border-radius: 10px;
+    }
+    /*左部下部*/
+    .left_title {
+        margin-top: 0;
+        line-height: 18px;
+        font-size: 18px;
+    }
+    .left_img .android img {
+        width: 61px;
+        height: auto;
+    }
+    .left_img .appstore img{
+        width: 61px;
+        height: auto;
+    }
+    .left_img .code img{
+        width: 21px;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width: 767px){
+    /*logo的左上边距*/
+    .logo_img{
+        margin-left: 0;
+        margin-top: 6%;
+    }
+    /*logo图片大小*/
+    .logo_img img {
+        width: 25px;
+        height: auto;
+    }
+    .logo_title{
+        margin-left: 0px;
+    }
+    /*导航字体变色*/
+    #NavbarHeader {
+        margin-bottom: 0;
+    }
+    #NavbarWrapper .navbar {
+        min-height: 42px;
+    }
+    #NavbarHeader .navbar-header .navbar-toggle {
+        padding: 4px 4px;
+        margin-top: 2px;
+        margin-bottom: 1px; 
+    }
+    #menu ul li.active a{
+        border-bottom: 0;
+    }
+    #menu ul li a:focus, #menu ul li a:hover {
+        background-color: green;
+        border-bottom: 0;
+    }
+    #menu ul li a {
+        width: 70px;
+        padding:0 0;
+    }
+    /*头部下部左侧*/
+    .left_title, .left_content, .left_img{
+        margin-left: 0%;
+    }
+    .left_title {
+        width: 100%;
+        font-size: 12px;
+        line-height: 10px;
+    }
+    .left_content {
+        font-size: 12px;
+    }
+    .left_content span {
+        border-bottom:2px solid #101c31;
+        padding-bottom: 0px;
+    }
+    /*it服务*/
+    .server_title {
+        font-size: 18px;
+    }
+    .server_have {
+        font-size: 12px;
+    }
+    .server_img_wrapper {
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 472px){
+    .left_title {
+        display: none;
+    }
+    .left_content{
+        margin-top: -10px;
+        
+    }
+    .left_content span {
+        border-bottom: 0;
+    }
+}
+@keyframes move{
+    from{
+        left: -200px;
+    }
+    to{
+        left: 0;
+    }
+}

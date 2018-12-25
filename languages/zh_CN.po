@@ -1,0 +1,32 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: icbcn\n"
+"POT-Creation-Date: 2018-12-13 17:34+0800\n"
+"PO-Revision-Date: 2018-12-13 17:34+0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:30
+msgid "category"
+msgstr "分类"
+
+#: index.php:31
+msgid "author"
+msgstr "作者"
+
+#: index.php:32
+msgid "time"
+msgstr "发布时间"
+
+#: index.php:33
+msgid "Edit"
+msgstr "编辑"
