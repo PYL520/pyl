@@ -20,6 +20,7 @@
     <?php } ?>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" />
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/footer.css" type="text/css"/>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/jquery-3.1.1.min.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
     <?php wp_head(); ?>

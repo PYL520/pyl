@@ -164,7 +164,7 @@ Version: 1.0.0
     height: auto;
 }
 /*it服务*/
-.server_wrapper .container-fluid .server_content_wrapper {
+.server_content_wrapper {
     margin-top: 60px;
     margin-left: 32px
 }
@@ -312,7 +312,7 @@ Version: 1.0.0
 }
 /*项目案列*/
 .project_case_wrapper {
-    padding: 0 180px;
+    padding: 98px 180px 0 180px;
 }
 .project_case_wrapper .project_case {
     width: 460px;
@@ -355,14 +355,181 @@ Version: 1.0.0
     width: 90px;
     height: 28px;
     margin-top: 12px;
-	background-color: #213a64;
+	background-color: #cccccc;
     border-radius: 14.2px 14px 14px 13.8px;
     text-align: center;
     font-family: PingFang-SC-Regular;
 	font-size: 14px;
 	line-height: 28px;
-	color: #fefefe;
+    color: #fefefe;
+    cursor: pointer;
  }
+ .project_case_wrapper .project_case .project_case_dedescribesc .active_more{
+	background-color: #213a64;
+ }
+ /*工程师介绍*/
+ .engineer_wrapper {
+     height: 300px;
+     margin-top: 168px;
+     padding: 120px 0 0 86px;
+     background: #101c31;
+ }
+ /*工程师左侧介绍*/
+ .engineer_wrapper .engineer_left_wrapper {
+    position: relative;
+    height: 100%;
+ }
+ .engineer_wrapper .engineer_left_wrapper .engineer_title {
+    font-family: PingFang-SC-Bold;
+    font-size: 36px;
+    line-height: 36px;
+	color: #ffffff;
+ }
+ .engineer_wrapper .engineer_left_wrapper .engineer_subheading {
+    margin-top: 12px;
+    font-family: PingFang-SC-Regular;
+    font-size: 16px;
+    line-height: 16px;
+	color: #ffffff;
+ }
+ .engineer_wrapper .engineer_left_wrapper .engineer_button {
+    position:absolute;
+    bottom: -37px;
+ }
+ /*工程师右侧*/
+ .engineer_wrapper .engineer_right_wrapper {
+    position: relative;
+    overflow-x: hidden;
+    height: 335px;
+}
+ .engineer_wrapper .engineer_right_wrapper .engineer_right{
+    position: absolute;
+    width: 1850px;
+    padding-left: 62px;
+
+ }
+ .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_right_content {
+    width: 560px;
+    height: 320px;
+    float: left;
+    margin-right: 36px;
+    padding: 50px 60px 50px 82px;
+	background-color: #ffffff;
+	box-shadow: 0.5px 0.8px 32px 0px rgba(33, 58, 100, 0.1);
+	border-radius: 10px;
+ }
+ .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_icon {
+    margin-bottom: 50px;
+ }
+ .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_content {
+    font-family: PingFang-SC-Regular;
+	font-size: 16px;
+    margin-bottom: 38px;
+	color: #343434;
+ }
+ .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img{
+    position: relative;
+ }
+ .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img img, .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img span{
+    display: inline-block;
+ }
+.engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img span{
+    position: absolute;
+    left: 90px;
+ }
+.engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img .engineer_img_name {
+    font-family: PingFang-SC-Bold;
+    font-size: 18px;
+    line-height: 32px;
+	color: #213a64;
+}
+.engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img .engineer_img_post {
+    font-family: PingFang-SC-Regular;
+	font-size: 15.3px;
+	color: #808080;
+}
+/*合作伙伴*/
+.cooperation_title_wrapper .server_title {
+    padding-top: 100px;
+}
+.cooperation_content_wrapper {
+    margin-top: 90px;
+}
+.cooperation_content_wrapper .cooperation_button_left {
+    position: relative;
+    width: 14.9%;
+    height: 360px;
+}
+.cooperation_content_wrapper .cooperation_button_left .left_btn{
+    position: absolute;
+    right: 17px;
+    top: 148px;
+}
+.cooperation_content_wrapper .cooperation_button_right {
+    position: relative;
+    width: 14.9%;
+    height: 360px;
+}
+.cooperation_content_wrapper .cooperation_button_right .right_btn{
+    position: absolute;
+    left: 40px;
+    top: 148px;
+}
+.cooperation_content_wrapper .cooperation_content {
+    position: relative;
+    width: 70.2%;
+    height: 390px;
+    overflow-x: hidden;
+}
+.cooperation_content_wrapper .cooperation_content .cooperation {
+    position: absolute;
+    margin: 10px 0 10px 0;
+    width: 1400px;
+}
+/*合作伙伴item*/
+.cooperation_content_wrapper .cooperation_content .cooperation .cooperation_item {
+    width: 300px;
+    height: 360px;
+    float: left;
+    margin-right: 36px; 
+	background-color: #ffffff;
+	box-shadow: 0.5px 0.8px 32px 0px rgba(33, 58, 100, 0.1);
+	border-radius: 10px;
+}
+.cooperation_content_wrapper .cooperation_content .cooperation .cooperation_item .cooperation_img{
+    border-bottom: 1px solid #ededed;
+}
+.cooperation_content_wrapper .cooperation_content .cooperation .cooperation_item .cooperation_words{
+    padding: 29px 24px 54px 19px;
+}
+.cooperation_content_wrapper .cooperation_content .cooperation .cooperation_item .cooperation_words .cooperation_title{
+    font-family: PingFang-SC-Bold;
+	font-size: 18px;
+	line-height: 22px;
+	color: #4e4e4e;
+}
+.cooperation_content_wrapper .cooperation_content .cooperation .cooperation_item .cooperation_words .cooperation_subheading{
+    font-family: PingFang-SC-Regular;
+	font-size: 16px;
+	line-height: 30px;
+	color: #4e4e4e;
+}
+.cooperation_content_wrapper .cooperation_content .cooperation .cooperation_item .cooperation_words .cooperation_more{
+    width: 80px;
+    height: 24px;
+    margin-top: 18px;
+	background-color: #cccccc;
+    border-radius: 13px 12px 12px 11px;
+    text-align: center;
+    font-family: PingFang-SC-Regular;
+	font-size: 14px;
+	line-height: 24px;
+    color: #fefefe;
+    cursor: pointer;
+}
+.cooperation_content_wrapper .cooperation_content .cooperation .cooperation_item .cooperation_words .cooperation_more_active{
+	background-color: #213a64;
+}
 @media screen and (max-width: 1860px){
     /*logo的左上边距*/
     .logo_img{
@@ -392,6 +559,10 @@ Version: 1.0.0
     }
     /*服务内容*/
     .content_wrapper .content_area {
+        width: 100%;
+    }
+    /*项目案列*/
+    .project_case_wrapper .project_case {
         width: 100%;
     }
 }
@@ -444,6 +615,10 @@ Version: 1.0.0
     /*服务内容左侧图片*/
     .content_wrapper .content_img img {
         margin: 0 auto;
+    }
+    /*项目案例*/
+    .project_case_wrapper {
+        padding: 50px 0 0 0;
     }
 }
 @media screen and (max-width: 970px){

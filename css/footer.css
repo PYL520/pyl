@@ -1,0 +1,54 @@
+/*背景图设置*/
+.footer_wrapper .small_program_wrapper {
+    background: url('../image/bg-xiaochengxu.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+/*小程序*/
+.footer_wrapper .small_program_wrapper .small_program {
+    margin-top: 5.5%;
+    font-family: PingFang-SC-Bold;
+    text-align: center;
+	font-size: 32px;
+	letter-spacing: 2.6px;
+	color: #ffffff;
+}
+.footer_wrapper .small_program_wrapper .small_program_download .small_program_btn {
+    width: 10.5%;
+    margin: 1.7% auto 4% auto;
+	background-color: #ffffff;
+    border-radius: 20px;
+    text-align: center;
+    font-family: PingFang-SC-Bold;
+    font-size: 16px;
+    line-height: 40px;
+    color: #101c31;
+    cursor: pointer;
+}
+.footer_wrapper .footer_link_wrapper {
+    margin-top: -1px;
+    background-color: #101c31;
+}
+.footer_wrapper .footer_link_wrapper .footer_link{
+    position: relative;
+}
+.footer_wrapper .footer_link_wrapper .menu-container{
+    position: absolute;
+    right: 0;
+    width: 65%;
+}
+.footer_wrapper .footer_link_wrapper .menu-container ul{
+    width: 100%;
+    float: left;
+}
+.footer_wrapper .footer_link_wrapper .menu-container ul li {
+    list-style: none;
+    float: left;
+    width: 30%;
+}
+.footer_wrapper .footer_link_wrapper .menu-container ul li a{
+    font-family: PingFang-SC-Regular;
+	font-size: 16px;
+	line-height: 30px;
+	color: #ffffff;
+}

@@ -123,7 +123,7 @@
             </div>
             <!--项目案列内容-->
             <div class="row project_case_wrapper">
-                <div class="col-md-4">
+                <div class="col-md-4 project_case_hover">
                     <div class="project_case">
                         <div class="project_case_img">
                             <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/product1.png" />
@@ -148,11 +148,11 @@
                                     <span class="text-right">2017-02-16</span>
                                 </div>
                             </div>
-                            <div class="project_case_more">MORE</div>
+                            <div class="project_case_more active_more">MORE</div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project_case_hover">
                     <div class="project_case">
                         <div class="project_case_img">
                             <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/product2.png" />
@@ -181,7 +181,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 project_case_hover">
                     <div class="project_case">
                         <div class="project_case_img">
                             <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/product3.png" />
@@ -210,6 +210,154 @@
                         </div>
                     </div>
                 </div>
+            </div>
+            <!--工程师介绍-->
+            <div class="row engineer_wrapper">
+                <!--左侧工程师介绍-->
+                <div class="col-md-2 engineer_left_wrapper">
+                    <div class="engineer_title">
+                        工程师介绍
+                    </div>
+                    <div class="engineer_subheading">
+                        高素质的企业技术人员，专业的服务
+                    </div>
+                    <div class="engineer_button">
+                        <div class="left_btn">
+                            <span class="left_icon"></span>
+                        </div>
+                        <div class="right_btn">
+                            <span class="right_icon"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 engineer_right_wrapper">
+                    <div class="engineer_right">
+                        <!--第一个右侧内容-->
+                        <div class="engineer_right_content">
+                            <div class="engineer_icon">
+                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/quotes.png" />
+                            </div>
+                            <div class="engineer_content">
+                            从事4年多的网络技术工作，有丰富的网络架构设计经验，有较强网络排错能力。
+                            </div>
+                            <div class="engineer_img">
+                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/touxiang3.png" />
+                                <span>
+                                    <div class="engineer_img_name">李强</div>
+                                    <div class="engineer_img_post">网络工程师</div>
+                                </span>
+                            </div>
+                        </div>
+                        <!--第二个-->
+                        <div class="engineer_right_content">
+                            <div class="engineer_icon">
+                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/quotes.png" />
+                            </div>
+                            <div class="engineer_content">
+                            具有丰富的售前经验，精通信息安全管理技术。
+                            </div>
+                            <div class="engineer_img">
+                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/touxiang2.png" />
+                                <span>
+                                    <div class="engineer_img_name">龙佳俊</div>
+                                    <div class="engineer_img_post">网络工程师</div>
+                                </span>
+                            </div>
+                        </div>
+                        <!--第三个-->
+                        <div class="engineer_right_content">
+                            <div class="engineer_icon">
+                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/quotes.png" />
+                            </div>
+                            <div class="engineer_content">
+                            具有丰富的项目管理经验，精通网络安全技术。
+                            </div>
+                            <div class="engineer_img">
+                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/touxiang1.png" />
+                                <span>
+                                    <div class="engineer_img_name">农文</div>
+                                    <div class="engineer_img_post">网络工程师</div>
+                                </span>
+                            </div>
+                        </div>
+                        <div style="clear:both"></div>
+                    </div>
+                </div>
+            </div>
+            <!--合作伙伴-->
+            <div class="row cooperation_title_wrapper">
+                <div class="col-sm-12">
+                    <div class="server_title">合作伙伴</div>
+                    <div class="server_have">高素质的企业技术人员，专业的服务</div>
+                </div>
+            </div>
+            <div class="row cooperation_content_wrapper">
+                <div class="col-md-2 cooperation_button_left">
+                    <div class="left_btn">
+                        <span class="left_icon"></span>
+                    </div>
+                </div>
+                <div class="col-md-8 cooperation_content">
+                    <div class="cooperation">
+                        <!--一个合作item-->
+                        <div class="cooperation_item">
+                            <div class="cooperation_img">
+                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners1.png" />
+                            </div>
+                            <div class="cooperation_words">
+                                <div class="cooperation_title">数据库服务</div>
+                                <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
+                                <div class="cooperation_more cooperation_more_active">
+                                    MORE
+                                </div>
+                            </div>
+                        </div>
+                        <!--一个合作item-->
+                        <div class="cooperation_item">
+                            <div class="cooperation_img">
+                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners2.png" />
+                            </div>
+                            <div class="cooperation_words">
+                                <div class="cooperation_title">数据库服务</div>
+                                <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
+                                <div class="cooperation_more">
+                                    MORE
+                                </div>
+                            </div>
+                        </div>
+                        <!--一个合作item-->
+                        <div class="cooperation_item">
+                            <div class="cooperation_img">
+                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners3.png" />
+                            </div>
+                            <div class="cooperation_words">
+                                <div class="cooperation_title">数据库服务</div>
+                                <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
+                                <div class="cooperation_more">
+                                    MORE
+                                </div>
+                            </div>
+                        </div>
+                        <!--一个合作item-->
+                        <div class="cooperation_item">
+                            <div class="cooperation_img">
+                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners3-1.png" />
+                            </div>
+                            <div class="cooperation_words">
+                                <div class="cooperation_title">数据库服务</div>
+                                <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
+                                <div class="cooperation_more">
+                                    MORE
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-2 cooperation_button_right">
+                    <div class="right_btn">
+                        <span class="right_icon"></span>
+                    </div>
+                </div>       
             </div>
         </div>
     </div>
