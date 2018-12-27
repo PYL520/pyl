@@ -8,17 +8,30 @@
         </div>
         <!--底部链接-->
         <div class="row footer_link_wrapper">
-            <div class="col-xs-5 footer_link">
+            <div class="col-sm-3 col-sm-offset-2 footer_link">
                 <?php wp_nav_menu(array(
                     'container_class' => 'menu-container',
-                    'menu_id' => 'menu'
+                    'menu_id' => 'menuWrapper'
                 )); ?>
             </div>
-            <div class="col-xs-2">
-                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/enterpriser.png" />
+            <!--两个二维码-->
+            <div class="col-sm-1 col-sm-offset-3 footer_enterpriser">
+                <div class="footer_enterpriser_img">
+                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/enterpriser.png" />
+                </div>
+                <div class="footer_img_title">企业端APP下载</div>
             </div>
-            <div class="col-xs-2">
-                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/engineer.png" />
+            <div class="col-sm-1 footer_engineer">
+                <div class="footer_engineer_img">
+                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/engineer.png" />
+                </div>
+                <div class="footer_img_title">工程师端APP下载</div>
+            </div>
+        </div>
+        <!--底部版权-->
+        <div class="row">
+            <div class="col-sm-12 footer_copyright">
+                Copyright © 2002-2018，www.gzsam.com.cn，All rights reserved 版权所有 © 广州赛姆科技资讯股份有限公司 粤ICP备16068226号-1
             </div>
         </div>
 </div>

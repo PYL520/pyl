@@ -2,6 +2,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=<?php bloginfo('charset'); ?>" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+    <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
     <?php 
         if(is_home()){ // 当前页为首页
             $title = get_bloginfo('name');
@@ -31,22 +36,22 @@
             <!--头部开始-->
             <div class="row">
                 <!--logo开始-->
-                <div class="col-sm-4 col-md-5 col-lg-5">
+                <div class="logo_img_wrapper col-xs-6 col-sm-4 col-md-5 col-lg-5">
                     <div class="logo_img">
                         <img src="<?php bloginfo('template_directory'); ?>/image/logo2.png" />
                         <span class="logo_title">IT帮服务平台</span>
-                        <div id="LoginWrapper1" style="display:none">
+                        <!-- <div id="LoginWrapper1" style="display:none">
                             <a href="/wordpress/wp-login.php" type="button" class="btn btn-default login">登录</a>
                             <a href="#" type="button" class="btn registe">注册</a>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
                 <!--logo结束-->
                 <!--导航开始-->
-                <div class="col-sm-6 col-md-5 col-lg-5" id="NavbarWrapper">
-                    <nav class="navbar" role="navigation" id="NavbarHeader">
+                <div class="col-xs-6 col-sm-8 col-md-7 col-lg-7" id="NavbarWrapper">
+                    <nav class="navbar pull-right" role="navigation" id="NavbarHeader">
                         <div class="navbar-header">
-                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu" style="float: right;">
                                 <span class="sr-only">切换</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -61,17 +66,19 @@
                                 <li><a href="#">工程师简介</a></li>
                                 <li><a href="#">合作伙伴</a></li>
                             </ul>
+                            <div class="login_wrapper" style="float: left;">
+                                <div id="LoginWrapper">
+                                    <a href="/wordpress/wp-login.php" type="button" class="btn btn-default login">登录</a>
+                                    <a href="#" type="button" class="btn registe">注册</a>
+                                </div>
+                            </div>
                         </div>
+                        
                     </nav>
                 </div>
                 <!--导航结束-->
                 <!--登录开始-->
-                <div class="col-sm-2 col-md-2 col-lg-2">
-                    <div id="LoginWrapper">
-                        <a href="/wordpress/wp-login.php" type="button" class="btn btn-default login">登录</a>
-                        <a href="#" type="button" class="btn registe">注册</a>
-                    </div>
-                </div>
+                
                 <!--登录结束-->
             </div>
             <!--头部下部-->

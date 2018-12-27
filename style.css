@@ -59,12 +59,12 @@ Version: 1.0.0
     color: #ffffff;
 }
 /*导航部分*/
+#NavbarWrapper {
+    padding-left: 80px;
+}
 .navWidth {
     width: 120px;
     overflow: hidden;
-}
-.navBackground {
-    background: #101C31;
 }
 #menu ul li.active a{
     border-bottom: 2px solid #ffffff;
@@ -77,8 +77,8 @@ Version: 1.0.0
     border-bottom: 2px solid #ffffff;
 }
 #menu ul li a {
-    margin-right: 80px;
-    padding:25px 0 10px 0;
+    margin-right: 77px;
+    padding:25px 0 8px 0;
     font-family: PingFang-SC-Regular;
 	font-size: 16px;
 	font-weight: normal;
@@ -98,7 +98,7 @@ Version: 1.0.0
 }
 /*登录部分*/
 #LoginWrapper{
-    padding-left: 20px;
+    padding-left: 80px;
     padding-top: 20px;
 }
 #LoginWrapper a{
@@ -536,9 +536,15 @@ Version: 1.0.0
         margin-left: 7%;
         margin-top: 9%;
     }
-    /*导航右边距缩小*/
+    #NavbarWrapper {
+        padding-left: 40px;
+    }
     #menu ul li a{
         margin-right: 40px;
+    }
+    /*登陆*/
+    #LoginWrapper{
+        padding-left: 40px;
     }
     /*头部下部左侧*/
     .left_title, .left_content, .left_img{
@@ -571,6 +577,9 @@ Version: 1.0.0
     #menu ul li a{
         margin-right: 17px;
         font-size: 13px;
+    }
+    #NavbarWrapper {
+        padding-left: 20px;
     }
     /*登录注册*/
     #LoginWrapper a{
@@ -638,14 +647,13 @@ Version: 1.0.0
         font-size: 12px;
     }
      /*导航右边距缩小*/
-     #menu ul li a{
-        margin-right: 17px;
+    #menu ul li a{
+        margin-right: 14px;
         font-size: 12px;
+        padding-top:20px;
+        padding-bottom: 4px;
     }
     /*导航上边距*/
-    #menu ul li a {
-        padding-top:20px;
-    }
     /*登录上边距*/
     #LoginWrapper{
         padding-left: 0px;
@@ -685,16 +693,16 @@ Version: 1.0.0
     /*logo的左上边距*/
     .logo_img{
         margin-left: 0;
-        margin-top: 6%;
+        margin-top: 10%;
     }
     /*logo图片大小*/
     .logo_img img {
         width: 25px;
         height: auto;
     }
-    .logo_title{
-        margin-left: 0px;
-    }
+    /* #NavbarWrapper{
+        text-align: right;
+    } */
     /*导航字体变色*/
     #NavbarHeader {
         margin-bottom: 0;
@@ -746,6 +754,14 @@ Version: 1.0.0
     }
 }
 @media screen and (max-width: 472px){
+    /*logo的左上边距*/
+    .logo_img{
+        margin-left: 0;
+        margin-top: 15%;
+    }
+    .logo_img .logo_title {
+        margin-left: 0;
+    }
     .left_title {
         display: none;
     }
