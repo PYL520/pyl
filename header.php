@@ -88,7 +88,7 @@
                     <div class="left_title">Intelligent service Professional problem Solver
                     </div>
                     <div class="left_content">
-                        <span class="content_title">服务智能化 专业问题解决大师<span>
+                        <span class="content_title">服务智能化 专业问题解决大师</span>
                     </div>
                     <!--最下三个图片-->
                     <div class="left_img">

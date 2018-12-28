@@ -214,7 +214,7 @@
             <!--工程师介绍-->
             <div class="row engineer_wrapper">
                 <!--左侧工程师介绍-->
-                <div class="col-md-2 engineer_left_wrapper">
+                <div class="col-xs-4 col-sm-2 engineer_left_wrapper">
                     <div class="engineer_title">
                         工程师介绍
                     </div>
@@ -230,7 +230,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-10 engineer_right_wrapper">
+                <div class="col-xs-8 col-sm-10 engineer_right_wrapper">
                     <div class="engineer_right">
                         <!--第一个右侧内容-->
                         <div class="engineer_right_content">

@@ -60,7 +60,7 @@ Version: 1.0.0
 }
 /*导航部分*/
 #NavbarWrapper {
-    padding-left: 80px;
+    padding-right: 67px;
 }
 .navWidth {
     width: 120px;
@@ -159,6 +159,9 @@ Version: 1.0.0
     margin-left: -77px;
 }
 /*右侧图片*/
+.right_img {
+    padding: 64px 50px 0 33px;
+}
 .right_img img {
     max-width: 100%;
     height: auto;
@@ -332,7 +335,7 @@ Version: 1.0.0
 	line-height: 20px;
 	color: #213a64;
 }
-.project_case_wrapper .project_case .project_case_dedescribesc .project_case_content{
+.project_case_wrapper .project_case .project_case_dedescribesc .project_case_content {
    margin-top: 19px;
 }
 .project_case_wrapper .project_case .project_case_dedescribesc .project_case_content .case_content span{
@@ -343,7 +346,8 @@ Version: 1.0.0
     font-family: PingFang-SC-Regular;
 	font-size: 16px;
 	line-height: 28px;
-	color: #4e4e4e;
+    color: #4e4e4e;
+    vertical-align: middle;
 }
 .project_case_wrapper .project_case .project_case_dedescribesc .project_case_content .case_content span:first-child{
     width: 72%;
@@ -351,7 +355,7 @@ Version: 1.0.0
 .project_case_wrapper .project_case .project_case_dedescribesc .project_case_content .case_content span:last-child{
     width: 27%;
 }
-.project_case_wrapper .project_case .project_case_dedescribesc .project_case_more{
+.project_case_wrapper .project_case .project_case_dedescribesc .project_case_more {
     width: 90px;
     height: 28px;
     margin-top: 12px;
@@ -364,7 +368,7 @@ Version: 1.0.0
     color: #fefefe;
     cursor: pointer;
  }
- .project_case_wrapper .project_case .project_case_dedescribesc .active_more{
+ .project_case_wrapper .project_case .project_case_dedescribesc .active_more {
 	background-color: #213a64;
  }
  /*工程师介绍*/
@@ -422,12 +426,17 @@ Version: 1.0.0
     margin-bottom: 50px;
  }
  .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_content {
+    display: -webkit-box;
     font-family: PingFang-SC-Regular;
-	font-size: 16px;
-    margin-bottom: 38px;
+    font-size: 16px;
+    line-height: 28px;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    height: 84px;
 	color: #343434;
  }
- .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img{
+ .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img {
     position: relative;
  }
  .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img img, .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img span{
@@ -537,7 +546,7 @@ Version: 1.0.0
         margin-top: 9%;
     }
     #NavbarWrapper {
-        padding-left: 40px;
+        padding-right: 40px;
     }
     #menu ul li a{
         margin-right: 40px;
@@ -563,13 +572,45 @@ Version: 1.0.0
     .left_img .marginCodeLeft {
         margin-left: -25px;
     }
+    .right_img {
+        padding: 20px 230px 0 33px;
+    }
+    /*服务大标题*/
+    .server_content_wrapper {
+        margin-top: 40px;
+    }
+    .server_title{
+        padding-top: 100px;
+    }
+    .server_img_title {
+        font-size: 17px;
+    }
+    .server_img_content {
+        margin-top: 19px;
+        font-size: 15px;
+    }
     /*服务内容*/
     .content_wrapper .content_area {
         width: 100%;
     }
+    
     /*项目案列*/
+    .project_case_wrapper {
+        padding: 90px 50px 0 50px;
+    }
     .project_case_wrapper .project_case {
-        width: 100%;
+        width: 425px;
+    }
+    .project_case_wrapper .project_case .project_case_dedescribesc {
+        padding: 30px 20px 50px 20px;
+    }
+
+    /*工程师介绍*/
+    .engineer_wrapper {
+        margin-top: 140px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right {
+        padding-left: 0;
     }
 }
 @media screen and (max-width: 1400px){
@@ -579,7 +620,7 @@ Version: 1.0.0
         font-size: 13px;
     }
     #NavbarWrapper {
-        padding-left: 20px;
+        padding-right: 20px;
     }
     /*登录注册*/
     #LoginWrapper a{
@@ -614,22 +655,126 @@ Version: 1.0.0
         width: 27px;
         height: auto;
     }
+    /*右侧图片*/
+    .right_img {
+        padding: 20px 160px 0 33px;
+    }
     /*it服务*/
     .server_title {
+        padding-top: 40px;
         font-size: 26px;
     }
     .server_have {
+        font-size: 15px;
+        margin-top: 8px;
+    }
+    .server_img_content {
+        margin-top: 10px;
         font-size: 14px;
+    }
+    /*服务内容容器上边距*/
+    .server_wrapper .container-fluid .content_wrapper {
+        margin-top: 70px;
     }
     /*服务内容左侧图片*/
     .content_wrapper .content_img img {
         margin: 0 auto;
     }
+    .content_wrapper .content_area .area_title {
+        font-size: 17px;
+    }
+    .content_wrapper .content_area .area_describe {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 15px;
+    }
     /*项目案例*/
     .project_case_wrapper {
         padding: 50px 0 0 0;
     }
+    .project_case_wrapper .project_case {
+        width: 100%;
+    }
+    .project_case_wrapper .project_case .project_case_dedescribesc {
+        padding: 20px 10px 40px 10px;
+    }
+    .project_case_wrapper .project_case .project_case_dedescribesc .project_case_title {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .project_case_wrapper .project_case .project_case_dedescribesc .project_case_content .case_content span {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .project_case_wrapper .project_case .project_case_dedescribesc .project_case_content .case_content span:first-child {
+        width: 68%;
+    }
+    .project_case_wrapper .project_case .project_case_dedescribesc .project_case_content .case_content span:last-child {
+        width: 30%;
+    }
+
+    /*工程师介绍*/
+    .engineer_wrapper {
+        margin-top: 100px;
+        height: 215px;
+        padding: 100px 0 0 50px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_subheading {
+        font-size: 13px;
+        line-height: 13px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_button {
+        bottom: -29px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_button .left_btn {
+        width: 50px;
+        height: 50px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_button .right_btn {
+        width: 50px;
+        height: 50px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_right_content {
+        width: 350px;
+        height: 200px;
+        margin-right: 20px;
+        padding: 20px 30px 20px 30px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_icon {
+        margin-bottom: 15px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_content {
+        font-size: 14px;
+        line-height: 18px;
+        height: 54px;
+    }
+    /*合作伙伴*/
+    .cooperation_title_wrapper .server_title {
+        padding-top: 0;
+    }
 }
+@media screen and (max-width: 991px) {
+    /*右侧图片*/
+    .right_img {
+        padding: 0 35px 0 97px;
+    }
+    /*服务内容容器外边距*/
+    .server_wrapper .container-fluid .content_wrapper {
+        margin-top: 30px;
+    }
+    /*项目案例*/
+    .project_case_wrapper .project_case_hover {
+        margin-bottom: 15px;
+    }
+    .project_case_wrapper .project_case {
+        width: 460px;
+    }
+}
+
 @media screen and (max-width: 970px){
     /*logo的左上边距*/
     .logo_img{
@@ -687,6 +832,63 @@ Version: 1.0.0
         width: 21px;
         height: auto;
     }
+    /*项目案例*/
+    .project_case_wrapper {
+        padding-top: 30px;
+    }
+
+    /*工程师介绍*/
+    .engineer_wrapper {
+        margin-top: 80px;
+        height: 165px;
+        padding: 80px 0 0 0;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_title {
+        font-size: 18px;
+        line-height: 18px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_subheading {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_button {
+        bottom: -27px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_button .left_btn {
+        width: 40px;
+        height: 40px;
+        margin-right: 10px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_button .right_btn {
+        width: 40px;
+        height: 40px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_right_content {
+        width: 259px;
+        height: 148px;
+        margin-right: 10px;
+        padding: 5px 10px 0 10px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_icon {
+        margin-bottom: 5px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_content {
+        font-size: 12px;
+        line-height: 12px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img img {
+        width: 50px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img span {
+        left: 70px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img .engineer_img_name {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img .engineer_img_post {
+        font-size: 14px;
+    }
     
 }
 @media screen and (max-width: 767px){
@@ -740,17 +942,105 @@ Version: 1.0.0
     }
     .left_content span {
         border-bottom:2px solid #101c31;
-        padding-bottom: 0px;
+    }
+    /*右侧图片*/
+    .right_img {
+        padding: 0 60px 0 40px;
     }
     /*it服务*/
+    .server_content_wrapper {
+        margin-top: 0;
+    }
     .server_title {
-        font-size: 18px;
+        font-size: 20px;
+        padding-top: 20px;
+        line-height: 30px;
     }
     .server_have {
-        font-size: 12px;
+        font-size: 13px;
+        margin-top: 0;
+    }
+    /*服务内容容器外边距*/
+    .server_wrapper .container-fluid .content_wrapper {
+        margin-top: 10px;
     }
     .server_img_wrapper {
         margin-right: 0;
+    }
+    .server_img_wrapper1 {
+        margin-right: 0px;
+    }
+    .server_img_wrapper3 {
+        margin-right: 0px;
+    }
+    /*项目案例*/
+    .project_case_wrapper .project_case {
+        width: 425px;
+    }
+
+    /*工程师介绍*/
+    .engineer_wrapper {
+        margin-top: 60px;
+        height: 165px;
+        padding: 80px 0 0 0;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_title {
+        font-size: 15px;
+        line-height: 15px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_subheading {
+        margin-top: 5px;
+        line-height: 12px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_button {
+        bottom: -22px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_button .left_btn {
+        width: 30px;
+        height: 30px;
+        margin-right: 5px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_button .left_btn .left_icon{
+        width: 10px;
+        height: 10px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_button .right_btn {
+        width: 30px;
+        height: 30px;
+    }
+    .engineer_wrapper .engineer_left_wrapper .engineer_button .right_btn .right_icon{
+        width: 10px;
+        height: 10px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_right_content {
+        width: 189px;
+        height: 108px;
+        margin-right: 10px;
+        padding: 4px 2px 0 3px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_icon {
+        margin-bottom: 2px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_icon img {
+        width: 16px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_content {
+        font-size: 12px;
+        line-height: 16px;
+        height: 48px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img img {
+        width: 34px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img span {
+        left: 50px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img .engineer_img_name {
+        font-size: 14px;
+        line-height: 14px;
+    }
+    .engineer_wrapper .engineer_right_wrapper .engineer_right .engineer_img .engineer_img_post {
+        font-size: 13px;
     }
 }
 @media screen and (max-width: 472px){
@@ -771,6 +1061,14 @@ Version: 1.0.0
     }
     .left_content span {
         border-bottom: 0;
+    }
+    /*右侧图片*/
+    .right_img {
+        padding: 0 47px 0 15px;
+    }
+    /*项目案例*/
+    .project_case_wrapper .project_case {
+        width: 100%;
     }
 }
 @keyframes move{

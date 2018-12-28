@@ -1,8 +1,8 @@
 $(function(){
-    setDivMargin();
+    setDivMargin($(window).width());
     $(window).resize(function(){ // 监听浏览器宽度
         var screen = $(window).width();
-            setDivMargin();
+            setDivMargin(screen);
     });
 
     $('.deal_content').hover(function(){
@@ -22,9 +22,13 @@ $(function(){
     });
 })
 
-function setDivMargin(){ // 设置margin与logo相同
-        var logoMargin = $('.logo_img').css('margin-left').replace('px', '');
-        console.log(logoMargin);
+function setDivMargin(screen){ // 设置margin与logo相同
+    var logoMargin = $('.logo_img').css('margin-left').replace('px', '');
+    if(screen < 768){
+        $('.server_content_wrapper').css("margin-left", 0);
+    }else{
         $('.server_content_wrapper').css("margin-left", logoMargin - 53 + 'px');
-        $('.content_wrapper').css("margin-left", logoMargin - 15 + 'px');
+    }
+    
+    $('.content_wrapper').css("margin-left", logoMargin - 15 + 'px');
 }

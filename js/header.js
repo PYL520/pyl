@@ -49,12 +49,8 @@ function dealNavClass(){ // 处理导航样式
     if($(window).width() < 751){
         $('#NavbarWrapper').addClass('navWidth');
         $('#menu ul').addClass('navBackground');
-        $('#LoginWrapper').hide();
-        $('#LoginWrapper1').show();
     }else{
         $('#NavbarWrapper').removeClass('navWidth');
         $('#menu ul').removeClass('navBackground');
-        $('#LoginWrapper').show();
-        $('#LoginWrapper1').hide();
     }
 }
