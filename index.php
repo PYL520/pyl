@@ -129,6 +129,11 @@
                             <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/product1.png" />
                         </div>
                         <div class="project_case_dedescribesc">
+                            <?php 
+                                global $post;
+                                echo the_post();
+                                echo the_title();
+                            ?>
                             <div class="project_case_title">数据库服务</div>
                             <div class="project_case_content">
                                 <div class="case_content">
@@ -292,68 +297,70 @@
                 </div>
             </div>
             <div class="row cooperation_content_wrapper">
-                <div class="col-md-2 cooperation_button_left">
+                <div class="cooperation_button_left">
                     <div class="left_btn">
                         <span class="left_icon"></span>
                     </div>
                 </div>
-                <div class="col-md-8 cooperation_content">
-                    <div class="cooperation">
-                        <!--一个合作item-->
-                        <div class="cooperation_item">
-                            <div class="cooperation_img">
-                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners1.png" />
-                            </div>
-                            <div class="cooperation_words">
-                                <div class="cooperation_title">数据库服务</div>
-                                <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
-                                <div class="cooperation_more cooperation_more_active">
-                                    MORE
+                <div class="col-sm-12 cooperation_content">
+                    <div class="Cooperation">
+                        <div class="cooperation">
+                            <!--一个合作item-->
+                            <div class="cooperation_item">
+                                <div class="cooperation_img">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners1.png" />
+                                </div>
+                                <div class="cooperation_words">
+                                    <div class="cooperation_title">数据库服务</div>
+                                    <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
+                                    <div class="cooperation_more cooperation_more_active">
+                                        MORE
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!--一个合作item-->
-                        <div class="cooperation_item">
-                            <div class="cooperation_img">
-                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners2.png" />
-                            </div>
-                            <div class="cooperation_words">
-                                <div class="cooperation_title">数据库服务</div>
-                                <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
-                                <div class="cooperation_more">
-                                    MORE
+                            <!--一个合作item-->
+                            <div class="cooperation_item">
+                                <div class="cooperation_img">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners2.png" />
+                                </div>
+                                <div class="cooperation_words">
+                                    <div class="cooperation_title">数据库服务</div>
+                                    <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
+                                    <div class="cooperation_more">
+                                        MORE
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!--一个合作item-->
-                        <div class="cooperation_item">
-                            <div class="cooperation_img">
-                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners3.png" />
-                            </div>
-                            <div class="cooperation_words">
-                                <div class="cooperation_title">数据库服务</div>
-                                <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
-                                <div class="cooperation_more">
-                                    MORE
+                            <!--一个合作item-->
+                            <div class="cooperation_item">
+                                <div class="cooperation_img">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners3.png" />
+                                </div>
+                                <div class="cooperation_words">
+                                    <div class="cooperation_title">数据库服务</div>
+                                    <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
+                                    <div class="cooperation_more">
+                                        MORE
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <!--一个合作item-->
-                        <div class="cooperation_item">
-                            <div class="cooperation_img">
-                                <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners3-1.png" />
-                            </div>
-                            <div class="cooperation_words">
-                                <div class="cooperation_title">数据库服务</div>
-                                <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
-                                <div class="cooperation_more">
-                                    MORE
+                            <!--一个合作item-->
+                            <div class="cooperation_item">
+                                <div class="cooperation_img">
+                                    <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/partners3-1.png" />
+                                </div>
+                                <div class="cooperation_words">
+                                    <div class="cooperation_title">数据库服务</div>
+                                    <div class="cooperation_subheading">IT帮资深系统专家为大型交易会调优</div>
+                                    <div class="cooperation_more">
+                                        MORE
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-2 cooperation_button_right">
+                <div class="cooperation_button_right">
                     <div class="right_btn">
                         <span class="right_icon"></span>
                     </div>

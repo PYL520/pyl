@@ -8,20 +8,20 @@
         </div>
         <!--底部链接-->
         <div class="row footer_link_wrapper">
-            <div class="col-sm-3 col-sm-offset-2 footer_link">
+            <div class="col-sm-5 col-md-4 col-lg-3 footer_link">
                 <?php wp_nav_menu(array(
                     'container_class' => 'menu-container',
                     'menu_id' => 'menuWrapper'
                 )); ?>
             </div>
             <!--两个二维码-->
-            <div class="col-sm-1 col-sm-offset-3 footer_enterpriser">
+            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-1 col-sm-offset-3 footer_enterpriser">
                 <div class="footer_enterpriser_img">
                     <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/enterpriser.png" />
                 </div>
                 <div class="footer_img_title">企业端APP下载</div>
             </div>
-            <div class="col-sm-1 footer_engineer">
+            <div class="col-xs-6 col-sm-2 col-md-2 col-lg-1 footer_engineer">
                 <div class="footer_engineer_img">
                     <img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/image/engineer.png" />
                 </div>
